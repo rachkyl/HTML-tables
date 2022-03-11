@@ -1,0 +1,132 @@
+*
+{
+	margin: 0;
+	cursor: default;
+}
+
+body
+{
+	font-family: sans-serif;
+	color: #CE972B;
+	background-color: #282c34;
+}
+header
+{
+	display: flex;
+	justify-content: center;
+}
+main
+{
+	display: flex;
+	justify-content: center;
+}
+aside
+{
+	float: left;
+	text-align: left;
+}
+
+a
+{
+	color: #CE972B;
+}
+a:hover
+{
+	color: teal;
+	animation: k-light 1s ease-in-out;
+}
+
+ul
+{
+	list-style: none;
+}
+
+/* TABLE STYLES */
+
+main table
+{
+	border-top: 2px solid #CE972B;
+	border-right: 2px solid #CE972B;
+	border-left: 2px solid #CE972B;
+	border-bottom: 4px solid #CE972B;
+	margin-bottom: 50px;
+}
+caption
+{
+	width: 1000px;
+	font-size: 45px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+th
+{
+	font-size: 25px;
+}
+td
+{
+	font-size: 22px;
+	padding-top: 1px;
+	padding-left: 5px;
+}
+
+/* TABLE CLASSES */
+
+.title
+{
+	font-size: 100px;
+}
+.img
+{
+	height: 100px;
+	width: 800px;
+	padding: 0;
+	margin: 0 30px 0 0;
+}
+.name
+{
+	color: #f4923fe8;
+}
+.element
+{
+	color: #c95d4c;
+}
+.purpose
+{
+	color: #88c367;
+}
+.value
+{
+	color: #282c34;
+}
+
+/* ANIMATION */
+
+@keyframes k-light {
+	10% {
+		opacity: .9;
+	}
+	20% {
+		opacity: .8;
+	}
+	30% {
+		opacity: .7;
+	}
+	40% {
+		opacity: .6;
+	}
+	50% {
+		opacity: .5;
+	}
+	60% {
+		opacity: .6;
+	}
+	70% {
+		opacity: .7;
+	}
+	80% {
+		opacity: .8;
+	}
+	90% {
+		opacity: .9;
+	}
+}
